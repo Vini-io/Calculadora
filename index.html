@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="display">
+            <span id="result"></span>
+        </div>
+
+        <div class="contant-btn">
+
+            <button onclick="clr()" class="btn1 btn-all">CE</button>
+            <button onclick="dlt()" class="btn2 btn-all"><</button>
+            
+                <button onclick="calculadora('/')" class="btn3 btn-all">/</button>
+                <button onclick="calculadora('*')" class="btn4 btn-all">*</button>
+                <button onclick="calculadora('-')" class="btn5 btn-all">-</button>
+                <button onclick="calculadora('+')" class="btn6 btn-all">+</button>
+
+            <button onclick="calcular('confirm')" class="btn7 btn-all">=</button>
+
+                <button onclick="calculadora('.')" class="btn8 btn-all">.</button>
+                <button onclick="calculadora('9')" class="btn9 btn-all">9</button>
+                <button onclick="calculadora('8')" class="btn10 btn-all">8</button>
+                <button onclick="calculadora('7')" class="btn11 btn-all">7</button>
+                <button onclick="calculadora('6')" class="btn12 btn-all">6</button>
+                <button onclick="calculadora('5')" class="btn13 btn-all">5</button>
+                <button onclick="calculadora('4')" class="btn14 btn-all">4</button>
+                <button onclick="calculadora('3')" class="btn15 btn-all">3</button>
+                <button onclick="calculadora('2')" class="btn16 btn-all">2</button>
+                <button onclick="calculadora('1')" class="btn17 btn-all">1</button>
+                <button onclick="calculadora('0')" class="btn18 btn-all">0</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="./scripts/app.js"> </script>
+
+</body>
+
+</html>
